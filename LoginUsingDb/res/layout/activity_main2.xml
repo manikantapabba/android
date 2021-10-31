@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:text="Register"
+        android:textStyle="italic"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#F60404"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="100sp"
+        android:paddingLeft="30px"
+        android:paddingRight="30px"
+        android:hint="Enter User Name"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="50sp"
+        android:paddingLeft="30px"
+        android:paddingRight="30px"
+        android:hint="Enter Mail id"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password1"
+        android:layout_below="@+id/mail"
+        android:layout_marginTop="50sp"
+        android:paddingLeft="30px"
+        android:paddingRight="30px"
+        android:hint="Enter password"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password2"
+        android:layout_below="@+id/password1"
+        android:layout_marginTop="50sp"
+        android:paddingLeft="30px"
+        android:paddingRight="30px"
+        android:hint="Re-Enter password"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupbtn"
+        android:layout_below="@id/password2"
+        android:layout_marginTop="100sp"
+        android:layout_centerHorizontal="true"
+        android:text="Sign-Up"
+        />
+
+
+
+
+</RelativeLayout>
