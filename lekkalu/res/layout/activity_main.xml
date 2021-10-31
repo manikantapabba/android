@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C5B6B6"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Enter Name"
+        android:inputType="text"
+        android:gravity="center"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:stretchColumns="*"
+        android:textAlignment="center"
+        android:gravity="center_horizontal">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            >
+
+            <TextView
+                android:id="@+id/bags"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Bags"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/bval"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:inputType="number"/>
+
+            <TextView
+                android:id="@+id/weight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Weight"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/wval"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:inputType="number"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/kgs"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Kgs"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/kgsval"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:inputType="number"/>
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/pval"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:inputType="number"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/cc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Cc"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/ccval"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:inputType="number"/>
+
+            <TextView
+                android:id="@+id/extra"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Extra"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/eval"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:inputType="number"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/hamali"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Hamali"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/hval"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:inputType="number"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:text="SUBMIT"
+        android:textSize="25dp" />
+</LinearLayout>
